@@ -1,0 +1,45 @@
+
+
+/ *
+ * untitled.java
+ * 
+ * Copyright 2018 <pi @ raspberrypi>
+ * 
+* Questo programma è software libero; puoi ridistribuirlo e / o modificarlo
+ * sotto i termini della GNU General Public License come pubblicata da
+* la Free Software Foundation; o la versione 2 della licenza, o
+ * (a tua scelta) qualsiasi versione successiva.
+ * 
+ * Questo programma è distribuito nella speranza che sia utile,
+* ma SENZA ALCUNA GARANZIA; senza nemmeno la garanzia implicita di
+* COMMERCIABILITÀ O IDONEITÀ PER UN PARTICOLARE SCOPO. Vedere il
+ * Licenza pubblica generale GNU per maggiori dettagli.
+ * 
+ * Dovresti aver ricevuto una copia della GNU General Public License
+* insieme a questo programma; in caso contrario, scrivi al Software Libero
+ * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+ * MA 02110-1301, USA.
+ * 
+ * 
+ * /
+
+
+import  javax.swing. * ;
+
+public  class  Main  estende  JFrame {
+	
+	pubblico  Main () {
+		super ( " regole 5Binf " );
+		eccellente . setDefaultCloseOperation ( WindowConstants . EXIT_ON_CLOSE );
+		eccellente. aggiungi (nuova JLabel ("Hello "));
+		eccellente . pack ();
+		eccellente . setVisible ( true );
+		
+		
+		
+	}
+	
+	public  static  void  main ( String [] args ) {
+		nuovo  Main ();
+	}
+}
